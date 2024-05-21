@@ -1,0 +1,159 @@
+body{
+    font: 400 15px/1.8 Lato, sans-serif !important;
+    color: #777 !important;
+}
+
+h3, h4{
+    margin: 10px 0 30px 0 !important;
+    letter-spacing: 10px;
+    font-size: 20px !important;
+}
+
+.container{
+    padding: 80px 120px;
+}
+
+.navbar{
+    margin-bottom: 0;
+    background-color: #2d2d30 !important;
+    border: 0 !important;
+    font-size: 11px;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand{
+    color: #d5d5d5 !important;
+}
+
+.navbar li a:hover{
+    color: white !important;
+}
+
+.navbar li.active a{
+    color: white !important;
+    background-color: #29292c !important;
+}
+
+.navbar-default, .navbar-toggle{
+    border-color: transparent !important;
+}
+
+.open .dropdown-toggle{
+    color: white !important;
+    background-color: #555 !important;
+}
+
+.dropdown-menu li a{
+    color: black !important;
+}
+
+.dropdown-menu li a:hover{
+    background-color: red !important;
+}
+
+.carousel-inner img{
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-caption h3{
+    color: white;
+}
+
+@media (max-width: 600px){
+    .carousel-caption{
+        display: none;
+    }
+}
+
+.person{
+    border: 10px solid transparent;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+.person:hover{
+    border-color: #f1f1f1;
+}
+
+.bg-1{
+    background-color: #2d2d30;
+    color: #bdbdbd;
+}
+
+.bg-1 h3{
+    color: white;
+}
+
+.bg-1 p{
+    font-style: italic;
+}
+
+.list-group-item:first-child{
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.list-group-item:last-child{
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.thumbnail{
+    padding: 0 0 15px 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0 !important;
+    transition: .2s;
+}
+
+.modal-header, .close{
+    background-color: #333;
+    color: white !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-header, .modal-body{
+    padding: 40px 50px;
+}
+
+.nav-tabs li a{
+    color: #777;
+}
+
+.form-control{
+    border-radius: 0 !important;
+}
+
+textarea{
+    resize: none;
+}
+
+footer{
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+footer a{
+    color: #f5f5f5;
+}
+
+footer a:hover{
+    color: #777;
+    text-decoration: none;
+}
+
